@@ -114,7 +114,61 @@ overflow: hidden;
 .event-content .event-img img:hover{
     transform: scale(1.2);
     filter: brightness(.8);
+}.event .content-text{
+    width: 30rem;
+    padding: 2.5rem;
+    background: rgba(255, 255,255, 0.295);
+    box-shadow: 0 6rem  4rem -1rem rgba(122, 122,122, 0.295);
+    position: absolute;
+    top: 3.22rem;
+    right: 4rem;
 }
+.content-text .event-menu h4{
+    font-size: 4.5rem;
+    font-weight: 400 ;
+    text-transform: uppercase;
+    color: #182731;
+    line-height:1.2
+
+}
+.content-text .event-menu h4::after{
+    content: "";
+    display: block;
+    width: 16rem;
+    height: 4px;
+    background-color: #89cff0;
+}
+.event-menu .event-detail{
+     margin: 1.2rem 0;
+     list-style-type: none;
+
+}
+.event-menu .event-detail li{
+    font-size: 1.7rem;
+    font-weight: 400;
+    padding:.4rem ;
+}
+.event-menu .event-detail li i{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.event-menu .event-detail li span {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+.content-text .event-text h4{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #87b9d8;
+    line-height: 1.7;
+    letter-spacing: 2px;
+}
+.content-text .event-text p{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
 /* This is the section for the header for all the pages */
 a {
     text-decoration: none;
