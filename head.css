@@ -95,6 +95,26 @@ body{
 .teamcontainer .card .content .sci a:hover{
     color: #89cff0;
 }
+.event .event-section{
+
+    
+}
+.event .event-content{
+    margin: 2rem 1.2rem;
+    width: 60rem;
+    position: relative;
+}
+.event-content .event-img{
+overflow: hidden;
+}
+.event-content .event-img img{
+    width: 115%;
+    transition:  all .5s;
+}
+.event-content .event-img img:hover{
+    transform: scale(1.2);
+    filter: brightness(.8);
+}
 /* This is the section for the header for all the pages */
 a {
     text-decoration: none;
