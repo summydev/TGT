@@ -509,7 +509,12 @@ display: none;
     display: flex;
     justify-content: space-around;
 }
-
+.event{
+    display: flex;
+}
+.event .img img{
+    width:100% ;
+}
 /* CONTACT PAGE */
 /* this is the contact form */
 section.form {
@@ -969,8 +974,14 @@ div#gallery{
 .hstretch{
     grid-row: span 2;
 }
+.event {
+    display: block;
 }
-@media only  screen and(max-width:767px){
+.event .img img {
+    width: 50%;
+}
+}
+/* @media only  screen and(max-width:767px){
     .event .event-section{
         margin: 3rem 0;
     }
@@ -990,4 +1001,4 @@ div#gallery{
         margin-top: 2.7rem;
         margin-bottom: 1.7rem;
     }
-}
+} */
