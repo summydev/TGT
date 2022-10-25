@@ -991,6 +991,9 @@ div#gallery{
     width: 100%;
     height: 300px;
 }
+.event-about h3{
+    font-size: 20;
+}
 }
 /* @media only  screen and(max-width:767px){
     .event .event-section{
