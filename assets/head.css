@@ -1,0 +1,719 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+* {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* This is the section for the header for all the pages */
+
+nav {
+    background-color: #f1f1f1;
+    height: 80px;
+    width: 100%;
+   
+}
+
+nav img {
+    padding: 20px 0;
+}
+
+.logo {
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+    left: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: grey;
+    padding: 7px 13px;
+}
+
+ nav ul li a:hover {
+    color: #89cff0;
+    font-weight: bold;
+}
+
+a.active,a:hover {
+
+    transition: .5s;
+
+} 
+
+i.fa.fa-bars {
+    font-size: 30px;
+    color: #89cff0;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+header button{
+cursor: pointer;
+margin: 0px;
+font-size: 15px;
+outline: none;
+border: none;
+text-decoration: none;
+ background-color: #89cff0;
+line-height: 30px;
+color: white;
+box-shadow: 0px 0px 2px grey;
+padding: 2px 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* The first section in the home page */
+
+.intro-text {
+    margin: 0 30px;
+}
+.intro-text h1{
+    margin: 0;
+    font-size: 70px;
+    color: #87b9d8;
+    font-family: 'Black Ops One', cursive;
+
+}
+.intro-text p {
+    margin: 0;
+    font-size: 20px;
+    font-family: system-ui;
+    color: gray;
+    
+}
+.about p{
+    margin: 0;
+    font-size: 20px;
+    font-family: system-ui;
+    color: grey;
+    
+}
+.more-info p{
+    margin: 0;
+    font-size: 20px;
+    font-family: system-ui;
+    color: gray;
+    
+}
+section.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    width: 100%;
+
+}
+ section.intro{
+    background-color: white;
+    align-items: center;
+}
+.intro button {
+    box-shadow: 0px 0px 5px grey;
+    font-size: 20px;
+    margin: 10px 15px;
+    outline: none;
+    border: none;
+    background-color: #89cff0;
+    padding: 10px 25px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+/*
+The second section on the home page;OUR CORE VALUES SECTION */
+section.core-values h3 {
+    font-size: 50px;
+    text-align: center;
+    color: grey;
+    margin-bottom: 0;
+}
+.info {
+    display: flex;
+}
+.card {
+    margin-top: 40px;
+}
+.core-values-info {
+    margin: 10px 50px;
+    border-radius: 10px;
+    text-align: center;
+   width: 33.3%;
+    color: grey;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 4px 3px 10px grey;
+    font-family: sans-serif;
+}
+.core-values-info:hover {
+    background-color: grey;
+    color: white;
+}
+.core-values hr{
+    width: 10%;
+        outline: none;
+        margin: auto;
+        height: 4px;
+        border: none;
+    background: #89cff0;
+}
+.core-values-info p{
+    line-height: 1.5;
+}
+
+/* 
+this is the third aection on the home page; JOIN OUR COMMUNITY */
+.more-info{
+    display: flex;
+}
+.more-info .text h3{
+    font-size: 50px;
+    color: grey;
+    margin-bottom: 0;
+}
+.more-info .text hr{
+    width: 20%;
+        outline: none;
+        margin: auto;
+        height: 4px;
+        border: none;
+    background: #89cff0;
+}
+div.more-info {
+    padding: 40px;
+}
+.more-info .text {
+    margin: 0 3px;
+}
+.more-info .text button{
+    font-size: 18px;
+    margin: 10px 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px grey;
+    background-color: #89cff0;
+    padding: 10px 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+.more-info .text .image{
+    margin: 2px;
+}
+.more-info .image img {
+    margin: 0 7px;
+}
+#more-info-mobile, #more-info-web{
+    background-color: #f1f1f1;
+}
+#more-info-mobile{
+    display: none;
+}
+
+/* this is the fourth section on the homepage;NEWSLETTER */
+
+section.news-letter {
+    text-align: center;
+}
+div#news-letter {
+    margin: 1px 15%;
+    background-color: grey;
+    text-align: center;
+    border-radius: 5px;
+    padding: 35px 74px;
+    box-shadow: 0px 0px 9px grey;
+}
+#news-letter h2 {
+    font-size: 40px;
+    color: white;
+    margin: 5px 0;
+}
+ #news-letter input[type="email"] {
+    width: 50%;
+    height: 40px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 0px 2px #89cff0;
+}
+#news-letter button {
+    padding: 11px 30px;
+    font-size: 16px;
+    background-color: #89cff0;
+    color: white;
+    border-radius: 3px;
+    border: none;
+
+    box-shadow: 0px 0px 2px grey;
+}
+
+
+/* ABOUT SECTION */
+/* THIS IS THE SECOND SECTION IN THE ABOUT PAGE */
+
+#about-purpose {
+    display: flex;
+   justify-content: space-between;
+}
+.purpose {
+    margin: 12px;
+    padding: 5px 12px;
+    text-align: center;
+    width: 100%;
+    box-shadow: -3px 3px #89cff0;
+}
+#about-purpose p{
+color: gray;
+}
+#about-purpose h4{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 3px;
+}
+/* THIS IS THE THIRD SECTION ON THE ABOUT PAGE */
+section.about-info{
+    display: flex;
+background-color: #f1f1f1;
+justify-content: space-between;
+}
+section #about-info {
+    text-align: center;
+    margin: 40px;
+    width: 100%;
+}
+.about-info button{
+    font-size: 15px;
+    margin: 10px 15px;
+    outline: none;
+    border: none;
+    background-color: #89cff0;
+    padding: 10px 30px;
+    color: white;
+    box-shadow: 0px 0px 5px grey;
+}
+#about-info h3{
+
+        font-size: 35px;
+        margin: 0;
+
+}
+#about-info p{
+    color: grey;
+    font-size: 15px;
+    font-family: serif;
+}
+/* THIS IS THE FOURTH SECTION ON THE ABOUT PAGE */
+.team h2 {
+    margin: 15px;
+    font-size: 50px;
+    text-align: center;
+    color: gray;
+    font-family: monospace;
+}
+.team-member{
+    display: flex;
+}
+.team-member .image img{
+    border-radius: 50px;
+}
+.team-members {
+    margin: 100px 20px;
+}
+section.team {
+    margin: 0 60px;
+}
+.team .text {
+    margin: 10% 2%;
+}
+.team .text h3 {
+    margin: 0;
+    font-size: 25px;
+    padding-bottom: 1em;
+    color: #89cff0;
+    font-weight: bold;
+}
+#team-member-mobile{
+display: none;
+}
+
+
+/* EVENT PAGE */
+/* this is the events section; UPCOMING AND PAST */
+.past-events h3, .upcoming-events h3{
+    color: #89cff0;
+    font-size: 40px;
+    font-family: monospace;
+    margin: 5px;
+
+}
+.past-events p, .upcoming-events p{
+    
+    margin: 5px;
+
+}
+.past-events,.upcoming-events{
+    text-align: center;
+    margin: 20px;
+    color: gray;
+}
+
+/* CONTACT PAGE */
+/* this is the contact form */
+section.form {
+    text-align: center;
+}
+.form h2{
+    margin-bottom: 0;
+    font-size: 40px;
+    font-family: system-ui;
+    color: grey;
+}
+.form hr {
+    width: 10%;
+    height: 3px;
+    background-color: #89cff0;
+    outline: none;
+    border: none;
+}
+.form p {
+    color: gray;
+    font-size: 20px;
+}
+.form input[type="mail"], .form input[type="text"]{
+    color: gray;
+    width: 50%;
+    height: 40px;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 2px solid #89cff0;
+    box-shadow: 0px 0px 5px #89cff0;
+    margin: 10px;
+}
+.form textarea{
+    color: gray;
+    width: 50%;
+    
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    border:1px solid #89cff0;
+    box-shadow: 0px 0px 3px #89cff0;
+    margin: 10px;
+}
+.form input[type="button"]{
+   background-color: #89cff0;
+    width: 50%;
+    height: 45px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 5px grey;
+    margin: 10px;
+}
+
+
+/* THE FOOTER SECTION FOR ALL THE PAGES */
+footer{
+    background: url(InShot_20210926_185608472.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+footer .footer{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+footer{
+    margin-top: 20px;
+}
+.footer img{
+    margin-top: 50px;
+}
+footer .copyright{
+    text-align: center;
+}
+footer .copyright p{
+    margin: 0;
+    font-size: 12px;
+    color: white;
+    font-family: sans-serif;
+}
+footer .copyright a{
+    text-decoration: none;
+    color: #89cff0;
+}
+.footer-info ul{
+    text-decoration: none;
+    list-style: none;
+   
+  padding: 0;
+}
+.footer-info h2{
+    color: #f1f1f1;
+}
+.footer-info ul li a{
+    text-decoration: none;
+    color: gray;
+    
+}
+
+/* THIS CODE IS FOR STYLIND THE WORDS ON THE WEBPAGES */
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+a{
+    font-family: 'Work Sans', sans-serif;
+}
+h2,h1,h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media(max-width:952px) {
+    /* HEADER SECTION */
+    nav ul li a {
+        font-size: 30px;
+        color: #89cff0;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #f1f1f1;
+        top: 80px;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 40px 0;
+        line-height: 30px;
+    }
+    i.fa.fa-bars {
+        font-size: 30px;
+        color: #89cff0;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: block;
+    }
+    .shownav {
+        display: none;
+    }
+    section.intro{
+        display: block;
+    }
+    .intro-text h1{
+        font-size: 48px;
+        color: #87b9d8;
+        font-weight: bolder;
+    }
+    .intro-text p {
+        font-size: 18px;
+    }
+    .intro-image {
+        text-align: right;
+    }
+    .intro-image img {
+        width: 300px;
+    }
+    
+.intro button{
+    cursor: pointer;
+     margin: 2px;
+     font-size: 18px;
+     outline: none;
+     border: none;
+     text-decoration: none;
+     background-color: #89cff0;
+line-height: 30px;
+color: white;
+box-shadow: 0px 0px 2px grey;
+padding: 1px 15px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section.core-values h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.info {
+    display: block;
+}
+.core-values-info {
+    margin: 0;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    text-align: center;
+    color: grey;
+    width: 100%;
+    
+    padding: 15px;
+    background-color: white;
+    box-shadow: 4px 3px 10px grey;
+    font-family: sans-serif;
+}
+.core-values-info p{
+    font-size: 13px;
+    margin: 0;
+    align-items: center;
+}
+.core-values-info h4{
+    font-size: 18px;
+    margin: 2px;
+}
+.card {
+    padding: 10px 25%;
+   
+}
+.more-info{
+    display: block;
+    padding: 0;
+}
+div.more-info {
+    padding: 12px 40px !important;
+}
+.more-info .text h3{
+    font-size: 30px;
+
+}
+.more-info .text p{
+    font-size: 17px;
+}
+.more-info .image {
+text-align: right;
+}
+.more-info #image{
+text-align: left;
+}
+.more-info #text{
+    text-align: right;
+    padding-bottom: 0;
+}
+.more-info .image img{
+    width: 300px;
+}
+#more-info-mobile{
+    display: block;
+}
+#more-info-web{
+    display: none;
+}
+div#news-letter {
+    margin: 1px 5%;
+    background-color: grey;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 15px;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 9px grey;
+}
+div#news-letter h2{
+    font-size: 17px;
+}
+#news-letter input[type="email"] {
+    width: 70%;
+    height: 20px;
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 0px 2px #89cff0;
+}
+#news-letter button {
+    padding: 4px 10px;
+    font-size: 10px;
+    background-color: #89cff0;
+    color: white;
+    border-radius: 1px;
+   
+}
+#about-purpose {
+    display: block;
+    padding: 20px 100px;
+}
+.purpose{
+    margin-bottom: 40px;
+}
+section.about-info{
+display: block  !important;
+padding: 20px 15%;
+
+}
+section #about-info {
+    text-align: center;
+}
+.team-member{
+    display: block;
+}
+footer .footer{
+    display: block;
+    
+}
+.team-member .image img {
+    border-radius: 10px;
+    width: 350px;
+}
+#team-member-web{
+    display: none;
+}
+#team-member-mobile{
+    display: block;
+}
+
+.footer-info h2{
+    margin: 0;
+    font-size: 20px;
+}
+.more-info .text button {
+    font-size: 15px;
+    padding: 10px 18px;
+}
+footer .copyright p{
+    font-size: 10px;
+}
+footer .copyright a{
+    font-size: 12px;
+}
+.form input[type="button"]{
+    background-color: #89cff0;
+     width: 50%;
+     height: 45px;
+     padding: 15px;
+     font-size: 15px;
+     border: none;
+     color: white;
+     box-shadow: 0px 0px 5px grey;
+     margin: 10px;
+ }
+ .form p{
+     font-size: 15px;
+ }
+ 
+}
