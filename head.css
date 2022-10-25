@@ -511,9 +511,19 @@ display: none;
 }
 .event{
     display: flex;
+    padding: 40;
 }
 .event .img img{
     width:100% ;
+}
+.event-about {
+    padding: 2% 10% 0 10px;
+}
+.event-about h3{
+    color: #89cff0;
+    font-size: 60px;
+    font-family: monospace;
+    margin: 5px;
 }
 /* CONTACT PAGE */
 /* this is the contact form */
@@ -978,7 +988,8 @@ div#gallery{
     display: block;
 }
 .event .img img {
-    width: 50%;
+    width: 100%;
+    height: 300px;
 }
 }
 /* @media only  screen and(max-width:767px){
