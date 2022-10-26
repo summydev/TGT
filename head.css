@@ -18,7 +18,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing:border-box;
-    font-family: 'Proza Libre';
+    /* font-family: 'Proza Libre'; */
 }
 /* body{
     display: flex;
@@ -73,11 +73,15 @@ body{
     font-weight: bold;
     text-align: center ;
     letter-spacing: 1px;
+    font-family: sans-serif;
+   
 }
 .teamcontainer .card .content .contentBx h5{
     color: #888;
     font-size: 1.2rem;
     font-weight: bold;   text-align: center ;
+    font-family: sans-serif;
+    
       
     
 }
@@ -993,6 +997,31 @@ div#gallery{
 }
 .event-about h3{
     font-size: 20;
+}
+.past-events, .upcoming-events {
+    text-align: center;
+    margin: 20px 0;
+    color: gray;
+}
+
+.event {
+   
+    padding: 20 5;
+}
+div#gallery {
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
 }
 }
 /* @media only  screen and(max-width:767px){
