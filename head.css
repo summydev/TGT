@@ -518,7 +518,8 @@ display: none;
     padding: 40;
 }
 .event .img img{
-    width:100% ;
+    width: 500px;
+    height: 500px;
 }
 .event-about {
     padding: 2% 10% 0 10px;
@@ -528,6 +529,10 @@ display: none;
     font-size: 60px;
     font-family: monospace;
     margin: 5px;
+    text-align: left;
+}
+.event-about p{
+    text-align: left;
 }
 /* CONTACT PAGE */
 /* this is the contact form */
@@ -1011,7 +1016,7 @@ div#gallery{
 div#gallery {
     padding: 10px;
     max-width: 400px;
-    margin: 0 auto;
+ margin: 2px;
     background: white;
     display: grid;
     grid-gap: 18px;
